@@ -1,0 +1,22 @@
+h1{
+    color: rgb(244, 241, 241);
+    background-color: rgb(219, 170, 219);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    /* background: url(https://www.kennesaw.honors); */
+    background-color: rgb(247, 212, 218);
+}
+
+.p1_class{
+    color: rgb(219, 170, 219);
+}
+
+#p2_class{
+    color:aqua;
+}
+

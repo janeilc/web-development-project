@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Call the fonts into the HTML file-->
+    <link rel ="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;1,6..96,700&family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Call the CSS file-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--Call the Javascript file-->
+    <script src="script.js"></script>
+</head>
+
+<nav>
+    <ul>
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<body>
+    <header>
+        <!--The header for the Contact section-->
+        <h1>Contact</h1>
+    </header>
+
+    <br/>
+
+    <div id="error"></div>
+    <form action="contact.html">
+        <label for="firstname">First Name</label>
+    <input type="text" placeholder="First Name" required>
+    <br><br><br>
+
+    <label for="lastname">Last Name</label>
+    <input type="text"  placeholder="Last Name" required>
+    <br><br><br>
+
+    <label for="email">Email</label>
+    <input type="email"  placeholder="Email" required>
+    
+
+    <br><br><br>
+    <label for="comments">Additional Comments</label>
+    
+    <br>
+    <textarea name="comments" id="" cols="80", rows="20"></textarea>
+    <br>
+
+    <input type="submit">
+
+    <button>Cancel</button>
+    </form>
+
+    <br/><br/><br/>
+    
+    <footer>
+        <p>&copy; 2025 All Rights Reserved</p>
+    </footer>
+
+
+</body>
+</html>
